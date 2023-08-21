@@ -13,7 +13,84 @@
 </head>
 
 <body>
+    <div class="container">
 
+
+        <!-- BÀI 1: TIỀN LƯƠNG  -->
+        <div class="form-group">
+            <h1>TÍNH TIỀN LƯƠNG NHÂN VIÊN</h1>
+            <label for=""> Lương nhân viên 1 ngày </label>
+            <input type="text" class="form-control" name="" id="luong" aria-describedby="helpId" placeholder="">
+        </div>
+        <div class="form-group">
+            <label for="">Số ngày làm</label>
+            <input type="text" class="form-control" name="" id="soNgayLam" aria-describedby="helpId" placeholder="">
+            <button class="btn btn-success m-lg-2" id="btLuong">Tổng tiền</button>
+            <p class="bg-success text-white p-3 mt-3" id="result1"></p>
+        </div>
+
+
+        <!-- BÀI 2: TÍNH GIÁ TRỊ TRUNG BÌNH -->
+        <div class="form-group">
+            <h1>TÍNH GIÁ TRỊ TRUNG BÌNH </h1>
+            <label for=""> Số thực 1 </label>
+            <input type="text" class="form-control" name="" id="n1" aria-describedby="helpId" placeholder="">
+        </div>
+        <div class="form-group">
+            <label for=""> Số thực 2</label>
+            <input type="text" class="form-control" name="" id="n2" aria-describedby="helpId" placeholder="">
+        </div>
+        <div class="form-group">
+            <label for=""> Số thực 3 </label>
+            <input type="text" class="form-control" name="" id="n3" aria-describedby="helpId" placeholder="">
+        </div>
+        <div class="form-group">
+            <label for=""> Số thực 4 </label>
+            <input type="text" class="form-control" name="" id="n4" aria-describedby="helpId" placeholder="">
+        </div>
+        <div class="form-group">
+            <label for="">Số thực 5</label>
+            <input type="text" class="form-control" name="" id="n5" aria-describedby="helpId" placeholder="">
+            <button class="btn btn-success m-lg-2" id="btAverage">Average</button>
+            <p class="bg-success text-white p-3 mt-3" id="result2"></p>
+        </div>
+
+
+        <!--  BÀI 3: QUY ĐỔI TIỀN USD -> VND -->
+        <div class="form-group">
+            <h1>QUY ĐỔI TIỀN</h1>
+            <label for=""> Nhập số tiền </label>
+            <input type="text" class="form-control" name="" id="money" aria-describedby="helpId" placeholder="">
+            <button class="btn btn-success m-lg-2" id="btMoney">Quy đổi tiền</button>
+            <p class="bg-success text-white p-3 mt-3" id="result3"></p>
+        </div>
+
+
+        <!--  BÀI 4: TÍNH DIỆN TÍCH - CHU VI HÌNH CHỮ NHẬT -->
+        <div class="form-group">
+            <h1>TÍNH DIỆN TÍCH - CHU VI HÌNH CHỮ NHẬT</h1>
+            <label for=""> Chiều dài </label>
+            <input type="text" class="form-control" name="" id="length" aria-describedby="helpId" placeholder="">
+        </div>
+        <div class="form-group">
+            <label for="">Chiều rộng</label>
+            <input type="text" class="form-control" name="" id="width" aria-describedby="helpId" placeholder="">
+            <button class="btn btn-success m-lg-2" id="cT">CV-DT</button>
+            <p class="bg-success text-white p-3 mt-3" id="result4"></p>
+        </div>
+
+
+        <!-- BÀI 5: TÍNH TỔNG HAI KÍ SỐ -->
+        <div class="form-group">
+            <h1>TÍNH TỔNG HAI KÍ SỐ </h1>
+            <label for=""> Nhập 2 kí số </label>
+            <input type="text" class="form-control" name="" id="number" aria-describedby="helpId" placeholder="">
+            <button class="btn btn-success m-lg-2" id="sumN">Sum</button>
+            <p class="bg-success text-white p-3 mt-3" id="result5"></p>
+        </div>
+
+
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -25,6 +102,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
 </body>
 
 </html>
